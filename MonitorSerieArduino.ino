@@ -45,7 +45,7 @@ void loop()
         }
         if (valorRecibido=='5')
         {
-            digitalWrite(2,HIGH);
+            digitalWrite(5,HIGH);
         }    
         //si el caracter recibido es 'E' encendemos todos los leds
         if (valorRecibido=='E')
