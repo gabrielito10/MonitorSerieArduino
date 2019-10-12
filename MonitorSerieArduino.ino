@@ -23,10 +23,10 @@ void setup()
 void loop()
 {
     //Colocamos nuestro programa a la escucha de algun dato 
-    //introducidopor el monitor serie 
+    //introducido por el monitor serie 
     while(Serial.available())
     {
-        //si escucho algo lo recibimos en la variable 'valorRecibido'
+        //si escuchó algo lo recibimos en la variable 'valorRecibido'
         char valorRecibido=Serial.read();
 
         //verificamos el valor introducido y dependiendo del numero
